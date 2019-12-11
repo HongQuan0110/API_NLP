@@ -25,7 +25,7 @@ SECRET_KEY = 'v&lef__x*0jy#g625o%4e*)%)pd3&qcc-7gey8f%^t1tqo)(-v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', 'dockerdjangoapi.herokuapp.com']
 
 
 # Application definition
@@ -127,5 +127,6 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://qpn7y.csb.app'
+    'https://qpn7y.csb.app',
+    'https://webreview.herokuapp.com'
 ]
